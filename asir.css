@@ -1,0 +1,36 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+div.enlace_pincipio{
+    text-align: center;
+}
+a.titulo{
+    color: orange;
+}
+table.tabla{
+    color: blue;
+    justify-content: center;
+}
+div.tabla_azul{
+    background-color: deepskyblue;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    top: 50px;
+}
+div.final_pagina{
+    background-color: yellow;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+p.nombre{
+    color: blue;
+}
+p.nombre::after{
+    content: " Sergio Martínez";
+    color: red;
+}
